@@ -1,4 +1,3 @@
-require "pry"
 
 class Song
   attr_accessor :artist, :name
@@ -16,4 +15,3 @@ class Song
 
   end
 end
-binding.pry
