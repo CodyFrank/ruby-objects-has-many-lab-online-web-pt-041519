@@ -5,6 +5,10 @@ class Author
     @posts = []
   end
 
+  def self.post_count
+    post.all
+  end
+
   def posts
     @posts
   end
